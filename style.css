@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    padding: 0 ;
+    background-color: #F2E3DB;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------------------------------------header---------------------------------------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0;
+    background-color: #263A29;
+    color:#f9faf8 ;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.header-links ul{
+    padding-right: 50px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.header-links a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+/* --------------------------------------------------header---------------------------------------------------- */
