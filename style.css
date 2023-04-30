@@ -12,24 +12,79 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 ;
     margin: 0;
     background-color: #263A29;
     color:#f9faf8 ;
     font-weight: bolder;
-    font-size: 22px;
+}
+
+.header p{
+    padding: 0 70px;
+    font-size: 38px;
+
 }
 
 .header-links ul{
-    padding-right: 50px;
+    padding-right: 110px;
     display: flex;
-    gap: 30px;
+    gap: 45px;
     list-style-type: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .header-links a{
     color: #e5e7eb;
     text-decoration: none;
 }
-/* --------------------------------------------------header---------------------------------------------------- */
+/* --------------------------------------------------chef-section---------------------------------------------------- */
+
+.chef-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #263A29;
+    width: 100%;
+    height: 350px;
+}
+
+.text-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 70px;
+}
+
+.main-text .main {
+    font-weight: bolder;
+    font-size: 58px;
+    color: #f9faf8;
+    margin: 0;
+
+}
+
+.main-text .subText{
+    font-size: 18px;
+    color: #F2E3DB;
+    width: 415px;
+}
+
+.chef-section__image{
+    width: 350px;
+    height: 240px;
+    margin-right: 80px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.chef-section__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+
