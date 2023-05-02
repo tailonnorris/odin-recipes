@@ -1,0 +1,80 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f1e7d6;
+}
+
+/* --------------------------------------Header-------.---------------------------- */
+.header{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD93D;
+
+}
+
+.arepaAndIcon{
+    font-size: 42px;
+    text-shadow: 1px 1px 1px #000;
+}
+.icon{
+    height: 140px;
+    width: 140px;
+}
+.icon img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* --------------------------------------first section-------.---------------------------- */
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 350px;
+    padding: 10px;
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.first-section__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.first-section__text{
+    text-align: right;
+    font-size: 13px;
+    width: 800px;
+    overflow: hidden;
+    padding-top: 15px
+}
+
+.first-section__image{
+    width: 400px;
+    height: 250px;
+    margin: 0 10px;
+}
+
+.first-section__image img{
+    width: 100%;
+    height: 100%;
+}
